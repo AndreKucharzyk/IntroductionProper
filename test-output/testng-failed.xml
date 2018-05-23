@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://www.mulesoft.com/resources/api/what-is-rest-api-design"/>
+  <listeners>
+    <listener class-name="com.selenium.Listeners"/>
+  </listeners>
+  <test name="C:/Selenium/Projects/IntroductionProper/src/test/java/com/selenium/TestNGTutorial.java(failed)">
+    <parameter name="userName" value="Andre"/>
+    <parameter name="url" value="https://www.reddit.com/r/java/comments/1pylii/does_anyone_have_any_experience_invoking_testng/"/>
+    <classes>
+      <class name="com.selenium.TestNGinheritance2">
+        <methods>
+          <include name="Login"/>
+          <include name="setup"/>
+          <include name="methodClassThatExtends2"/>
+        </methods>
+      </class> <!-- com.selenium.TestNGinheritance2 -->
+      <class name="com.selenium.TestNGinheritance">
+        <methods>
+          <include name="usesDataProvider"/>
+          <include name="Login"/>
+          <include name="setup"/>
+          <include name="methodClassThatExtends"/>
+        </methods>
+      </class> <!-- com.selenium.TestNGinheritance -->
+    </classes>
+  </test> <!-- C:/Selenium/Projects/IntroductionProper/src/test/java/com/selenium/TestNGTutorial.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

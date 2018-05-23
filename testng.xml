@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="url" value="https://www.mulesoft.com/resources/api/what-is-rest-api-design"/>
+    <listeners>
+        <listener class-name="com.selenium.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Selenium/Projects/IntroductionProper/src/test/java/com/selenium/TestNGTutorial.java">
+        <parameter name="url" value="https://www.reddit.com/r/java/comments/1pylii/does_anyone_have_any_experience_invoking_testng/"/>
+        <parameter name="userName" value="Andre"/>
+        <classes>
+            <!--<class name="com.selenium.TestNGTutorial"/>-->
+            <class name="com.selenium.TestNGinheritance"/>
+            <!--<class name="com.selenium.TestNGinheritance2"/> -->
+            <!--<class name="com.selenium.StaticWDTest"/>-->
+            <!--<class name="com.selenium.StaticVariableTest2"/>-->
+        </classes>
+    </test>
+    <!--<test verbose="2" preserve-order="true"-->
+          <!--name="C:/Selenium/Projects/IntroductionProper/src/test/java/com/selenium/TestNGTutorial2.java">-->
+        <!--<classes>-->
+            <!--<class name="com.selenium.TestNGTutorial3"/>-->
+            <!--<class name="com.selenium.TestNGTutorial4"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
